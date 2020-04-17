@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trial2 View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="trial2ViewController" customModule="getAudio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1L-WY-8Rl">
+                                <rect key="frame" x="185.5" y="438" width="43" height="30"/>
+                                <state key="normal" title="Graph"/>
+                                <connections>
+                                    <segue destination="nMm-a1-kMA" kind="presentation" modalPresentationStyle="fullScreen" id="qsk-jv-2N9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79Z-S1-134">
+                                <rect key="frame" x="191" y="618" width="32" height="30"/>
+                                <state key="normal" title="Stop"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="79Z-S1-134" firstAttribute="top" secondItem="T1L-WY-8Rl" secondAttribute="bottom" constant="150" id="GUo-wl-O9j"/>
+                            <constraint firstItem="T1L-WY-8Rl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="d59-AD-lX0"/>
+                            <constraint firstItem="79Z-S1-134" firstAttribute="centerX" secondItem="T1L-WY-8Rl" secondAttribute="centerX" id="deB-tt-aAU"/>
+                            <constraint firstItem="T1L-WY-8Rl" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="fLw-NC-6ru"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+        <!--Graphing View Controller-->
+        <scene sceneID="LPy-uS-FWP">
+            <objects>
+                <viewController id="nMm-a1-kMA" customClass="GraphingViewController" customModule="getAudio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2fh-qv-uDi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="e4P-0L-q0v"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JRj-Qs-gjz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLh-cP-Uck" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1166" y="131"/>
+        </scene>
+    </scenes>
+</document>
