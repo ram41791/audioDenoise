@@ -34,7 +34,7 @@ def FourierTransformOfSignal(data):
     :param data: The audiofile as a vector
     :return: This returns the audio file in the frequency domain
     """
-    AudioInFrequencyDomain = np.fft.fft(data)
+    AudioInFrequencyDomain = np.fft.rfft(data)
     return AudioInFrequencyDomain
 
 def thresholdingInFrequencyDomain(fftAudio, threshold):
@@ -52,13 +52,13 @@ def FourierInverted(signal):
     :param signal: thresholded
     :return:
     """
-    inverseFFT = np.fft.ifft(signal)
+    inverseFFT = np.fft.irfft(signal)
     return inverseFFT
 
 if __name__ == "__main__":
     fileToTest = "/Users/varunnair/Desktop/AudioDNS/gitFolder/audioDenoise/PyFiles/NewRecording.wav"
     rate, data = readAudioFileAsVector(fileToTest)
     ftData = FourierTransformOfSignal(data)
-    thresholdedSignal = thresholdingInFrequencyDomain(ftData, 0.9)
+    thresholdedSignal = thresholdingInFrequencyDomain(ftData, 90)
     invertedPostThreshold = FourierInverted(thresholdedSignal)
     writeVectorAsAudio(rate, invertedPostThreshold)
