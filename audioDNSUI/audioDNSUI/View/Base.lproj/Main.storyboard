@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="audioDNSUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio denoise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJ1-Bs-gjt">
+                                <rect key="frame" x="153" y="64" width="108.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="96" translatesAutoresizingMaskIntoConstraints="NO" id="t6C-ve-5Oh">
+                                <rect key="frame" x="160.5" y="312" width="93" height="282"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9j3-L3-qdu">
+                                        <rect key="frame" x="9.5" y="0.0" width="74" height="30"/>
+                                        <state key="normal" title="Upload file"/>
+                                        <connections>
+                                            <action selector="fileUpload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p4a-YA-h9A"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11P-jX-Rhn">
+                                        <rect key="frame" x="18.5" y="126" width="56" height="30"/>
+                                        <state key="normal" title="Denoise"/>
+                                        <connections>
+                                            <action selector="denoise:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7K3-uY-hrF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1n-SF-v5Y">
+                                        <rect key="frame" x="0.0" y="252" width="93" height="30"/>
+                                        <state key="normal" title="Download file"/>
+                                        <connections>
+                                            <action selector="fileDownload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VD0-DA-GPx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="t6C-ve-5Oh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1Ri-YD-rja"/>
+                            <constraint firstItem="hJ1-Bs-gjt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="5WG-Io-bPZ"/>
+                            <constraint firstItem="hJ1-Bs-gjt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8Wy-MD-RoB"/>
+                            <constraint firstItem="t6C-ve-5Oh" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="dQL-Dl-Ezq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="127"/>
+        </scene>
+    </scenes>
+</document>

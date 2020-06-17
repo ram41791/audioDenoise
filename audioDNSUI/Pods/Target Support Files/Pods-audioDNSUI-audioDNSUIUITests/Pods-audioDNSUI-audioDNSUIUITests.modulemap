@@ -1,0 +1,6 @@
+framework module Pods_audioDNSUI_audioDNSUIUITests {
+  umbrella header "Pods-audioDNSUI-audioDNSUIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
