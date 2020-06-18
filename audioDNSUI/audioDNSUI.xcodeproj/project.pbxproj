@@ -10,8 +10,6 @@
 		42B6ACB79D0EA3C386F80825 /* Pods_audioDNSUI_audioDNSUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF145F541E7BC7E4C5DDD83 /* Pods_audioDNSUI_audioDNSUIUITests.framework */; };
 		8288323CE3D4A60D9375686A /* Pods_audioDNSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BB575C42C1A66848413CFF /* Pods_audioDNSUITests.framework */; };
 		9381F6217182D8F194415A34 /* Pods_audioDNSUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774877E7F6FB5178F5FE39CA /* Pods_audioDNSUI.framework */; };
-		C0124043249AA85F0097DDF8 /* Second.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0124042249AA85F0097DDF8 /* Second.wav */; };
-		C0124045249AACEF0097DDF8 /* Varun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0124044249AACEF0097DDF8 /* Varun.jpg */; };
 		C015BDE0249A955400AAB3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015BDDF249A955400AAB3AA /* AppDelegate.swift */; };
 		C015BDE2249A955400AAB3AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015BDE1249A955400AAB3AA /* SceneDelegate.swift */; };
 		C015BDE4249A955400AAB3AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015BDE3249A955400AAB3AA /* ViewController.swift */; };
@@ -21,6 +19,8 @@
 		C015BDF7249A955500AAB3AA /* audioDNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015BDF6249A955500AAB3AA /* audioDNSUITests.swift */; };
 		C015BE02249A955500AAB3AA /* audioDNSUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015BE01249A955500AAB3AA /* audioDNSUIUITests.swift */; };
 		C015BE14249A967200AAB3AA /* RestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015BE13249A967200AAB3AA /* RestManager.swift */; };
+		C0B25A90249AEFCD00378FEB /* Varun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0B25A8F249AEFCD00378FEB /* Varun.jpg */; };
+		C0B25A92249AF03900378FEB /* Second.wav in Resources */ = {isa = PBXBuildFile; fileRef = C0B25A91249AF03900378FEB /* Second.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +48,6 @@
 		7C2531D0F9BA4153A6BC1375 /* Pods-audioDNSUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioDNSUI.release.xcconfig"; path = "Target Support Files/Pods-audioDNSUI/Pods-audioDNSUI.release.xcconfig"; sourceTree = "<group>"; };
 		8833E5401CD44CE4F0C3A66A /* Pods-audioDNSUI-audioDNSUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioDNSUI-audioDNSUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-audioDNSUI-audioDNSUIUITests/Pods-audioDNSUI-audioDNSUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5F3293F465D50CC6BCCB3D6 /* Pods-audioDNSUI-audioDNSUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioDNSUI-audioDNSUIUITests.release.xcconfig"; path = "Target Support Files/Pods-audioDNSUI-audioDNSUIUITests/Pods-audioDNSUI-audioDNSUIUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C0124042249AA85F0097DDF8 /* Second.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Second.wav; path = ../../PyFiles/Second.wav; sourceTree = "<group>"; };
-		C0124044249AACEF0097DDF8 /* Varun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Varun.jpg; path = ../../Varun.jpg; sourceTree = "<group>"; };
 		C015BDDC249A955400AAB3AA /* audioDNSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audioDNSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C015BDDF249A955400AAB3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C015BDE1249A955400AAB3AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +63,8 @@
 		C015BE01249A955500AAB3AA /* audioDNSUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioDNSUIUITests.swift; sourceTree = "<group>"; };
 		C015BE03249A955500AAB3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C015BE13249A967200AAB3AA /* RestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestManager.swift; sourceTree = "<group>"; };
+		C0B25A8F249AEFCD00378FEB /* Varun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Varun.jpg; sourceTree = SOURCE_ROOT; };
+		C0B25A91249AF03900378FEB /* Second.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Second.wav; sourceTree = "<group>"; };
 		DF5304899D23C65B66635F5A /* Pods-audioDNSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioDNSUITests.release.xcconfig"; path = "Target Support Files/Pods-audioDNSUITests/Pods-audioDNSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FA1CC4B35E242D858A7A9E51 /* Pods-audioDNSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioDNSUITests.debug.xcconfig"; path = "Target Support Files/Pods-audioDNSUITests/Pods-audioDNSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,9 +145,9 @@
 		C015BDDE249A955400AAB3AA /* audioDNSUI */ = {
 			isa = PBXGroup;
 			children = (
-				C0124044249AACEF0097DDF8 /* Varun.jpg */,
-				C0124042249AA85F0097DDF8 /* Second.wav */,
+				C0B25A8F249AEFCD00378FEB /* Varun.jpg */,
 				C015BDDF249A955400AAB3AA /* AppDelegate.swift */,
+				C0B25A91249AF03900378FEB /* Second.wav */,
 				C015BDE1249A955400AAB3AA /* SceneDelegate.swift */,
 				C015BE12249A95A600AAB3AA /* Utils */,
 				C015BE0F249A956200AAB3AA /* Model */,
@@ -320,8 +320,8 @@
 			files = (
 				C015BDEC249A955500AAB3AA /* LaunchScreen.storyboard in Resources */,
 				C015BDE9249A955500AAB3AA /* Assets.xcassets in Resources */,
-				C0124045249AACEF0097DDF8 /* Varun.jpg in Resources */,
-				C0124043249AA85F0097DDF8 /* Second.wav in Resources */,
+				C0B25A90249AEFCD00378FEB /* Varun.jpg in Resources */,
+				C0B25A92249AF03900378FEB /* Second.wav in Resources */,
 				C015BDE7249A955400AAB3AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
