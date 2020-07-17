@@ -13,7 +13,7 @@ Required py packages:
  
     pandas
 
-Requried Swift cocoa pods:
+Requried Swift frameworks:
 
     AWS Cognito
 
